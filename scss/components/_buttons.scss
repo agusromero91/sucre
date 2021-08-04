@@ -16,6 +16,9 @@
     color: $col-yellow;
     background-color: $col-pink;
     border: 2px solid $col-pink;
+    &:hover{
+        transform:scaleX(1.03);
+    }
 }
 
 .boton-contacto{

@@ -296,6 +296,11 @@ body {
   border: 2px solid #de5398;
 }
 
+.boton-newsletter:hover {
+  -webkit-transform: scaleX(1.03);
+          transform: scaleX(1.03);
+}
+
 .boton-contacto {
   font-size: 22px;
   color: #de5398;
