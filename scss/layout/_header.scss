@@ -1,0 +1,50 @@
+header{
+    background-color: $col-pink;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-right: 3%;
+    padding-left: 3%;
+    color: $col-white;
+    align-items: center;
+    
+    .menu{
+        list-style-type: none;
+        &--md{
+            display: none;
+        }
+    }
+
+    .menu-link--active{
+        color: $col-yellow;
+    }
+
+    .brand{
+        display: flex;
+        align-items: center;
+        gap: .2;
+    }
+
+    .img-logo{
+        width: 120px;
+        height: 100px;
+        padding: 1.3em;
+    }
+
+    @media only screen and (min-width: 650px){
+        .menu--sm{
+            display: none;
+        }
+        .menu--md{
+            display: flex;
+            gap: 1em;
+            margin-right: 1em;
+
+        }
+        .menu-link:hover{
+            transform: scale(1.1);
+        }
+    }
+
+}
+
