@@ -444,7 +444,6 @@ textarea {
 /* PAGES */
 .index-main {
   background: url("../multimedia/home.jpg") no-repeat center/cover;
-  /* opacity: 90%; */
   min-height: 100%;
   display: -ms-grid;
   display: grid;
@@ -466,7 +465,6 @@ textarea {
 .index-txt {
   text-align: center;
   padding: 2em;
-  z-index: 5;
 }
 
 .boton-pedido {
@@ -505,6 +503,12 @@ textarea {
 
 .submenu-link {
   color: #de5398;
+  padding: 0.2em;
+}
+
+.submenu :hover {
+  -webkit-text-decoration: underline 0.2em;
+          text-decoration: underline 0.2em;
 }
 
 @media only screen and (min-width: 650px) {
@@ -519,10 +523,6 @@ textarea {
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
-  }
-  .submenu .submenu-link:hover {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
   }
 }
 

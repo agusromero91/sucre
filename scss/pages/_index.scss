@@ -1,6 +1,5 @@
 .index-main{
     background: url("../multimedia/home.jpg") no-repeat center/cover;
-    /* opacity: 90%; */
     min-height: 100%;
     display: grid;
     place-content: center;
@@ -20,7 +19,6 @@
 .index-txt{
     text-align: center;
     padding: 2em;
-    z-index: 5;
 }
 
 .boton-pedido{
