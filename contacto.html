@@ -14,16 +14,33 @@
         <a class="brand" href="index.html" > <img class="img-logo" src="multimedia/sucreBlanco.png" alt="logo"></a>
 
         <nav>
-            <a href="#" class="menu menu--sm">
-                <span class="iconify" data-icon="whh:menu" data-inline="false"></span></span>
-            </a>
-            <ul class="menu menu--md">
-              <li class="menu-link"> <a href="index.html">HOME</a></li>
-              <li class="menu-link"> <a href="sobremi.html">SOBRE MI</a></li>
-              <li class="menu-link"> <a href="galeria.html">GALERIA</a></li>
-              <li class="menu-link"> <a href="menu.html">MENU</a></li>
-              <li class="menu-link"> <a class="menu-link--active" href="contacto.html">CONTACTO</a></li>              
-            </ul>
+            <div class="menu menu--sm">
+                <input type="radio" id="tab-1" name="tab-group-1" />
+                <label for="tab-1"> <span class="iconify" data-icon="whh:menu" data-inline="false"></span></label>
+                <div class="tab close-tab">
+                    <input type="radio" id="tab-close" name="tab-group-1" />
+                    <label for="tab-close"></label>
+                 </div>
+                 <div class="detalle">
+                    <ul>
+                      <li><a href="index.html">HOME</a></li>
+                      <li><a href="sobremi.html">SOBRE MI</a></li>
+                      <li><a href="galeria.html">GALERÍA</a></li>
+                      <li><a href="menu.html">MENÚ</a></li>
+                      <li><a href="contacto.html">CONTACTO</a></li>
+                    </ul>
+                  </div>
+            </div>
+            <div>
+                <ul class="menu menu--md">
+                    <li class="menu-link"> <a href="index.html">HOME</a></li>
+                    <li class="menu-link"> <a href="sobremi.html">SOBRE MI</a></li>
+                    <li class="menu-link"> <a href="galeria.html">GALERIA</a></li>
+                    <li class="menu-link"> <a href="menu.html">MENU</a></li>
+                    <li class="menu-link"> <a class="menu-link--active" href="contacto.html">CONTACTO</a></li>              
+                  </ul>
+            </div>
+           
         </nav>
     </header>
    

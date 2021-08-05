@@ -223,18 +223,6 @@ header {
           align-items: center;
 }
 
-header .menu {
-  list-style-type: none;
-}
-
-header .menu--md {
-  display: none;
-}
-
-header .menu-link--active {
-  color: #f9f871;
-}
-
 header .brand {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -249,6 +237,101 @@ header .img-logo {
   width: 120px;
   height: 100px;
   padding: 1.3em;
+}
+
+header .menu {
+  list-style-type: none;
+}
+
+header .menu--md {
+  display: none;
+}
+
+header .menu--sm {
+  float: left;
+  position: relative;
+  margin-right: 1em;
+}
+
+header .menu--sm label {
+  background: #de5398;
+  padding: 0.5em 3em;
+  cursor: pointer;
+  text-align: center;
+  display: block;
+  position: relative;
+}
+
+header .menu--sm [type="radio"] {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+header .detalle {
+  position: absolute;
+  top: 100%;
+  opacity: 0;
+  left: 0;
+  background: #de5398;
+  color: #fafafa;
+  padding: 20px;
+  margin: 5px;
+}
+
+header .detalle ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header .detalle a {
+  color: #fafafa;
+  display: block;
+  white-space: nowrap;
+  text-decoration: none;
+  border-bottom: 1px solid #f9f871;
+  padding: 6px;
+}
+
+header .detalle a:hover {
+  color: #f9f871;
+}
+
+header .close-tab {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header .close-tablabel {
+  background: #de5398;
+  color: #fafafa;
+}
+
+header [type="radio"]:checked ~ label {
+  z-index: 2;
+}
+
+header [type="radio"]:checked ~ label ~ .detalle {
+  z-index: 1;
+  opacity: 1;
+}
+
+header [type="radio"]:checked ~ label ~ .close-tab {
+  z-index: 3;
+}
+
+header .menu-link--active {
+  color: #f9f871;
 }
 
 @media only screen and (min-width: 650px) {
