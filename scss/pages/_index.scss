@@ -19,6 +19,7 @@
 .index-txt{
     text-align: center;
     padding: 2em;
+    z-index: 5; // si lo saco see arregla el menu mobile pero no funciona el boton
 }
 
 .boton-pedido{

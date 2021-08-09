@@ -465,6 +465,7 @@ textarea {
 .index-txt {
   text-align: center;
   padding: 2em;
+  z-index: 5;
 }
 
 .boton-pedido {
@@ -750,7 +751,7 @@ textarea {
   opacity: 1;
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 475px) {
   .contenedor-galeria .img-titulo {
     opacity: 1;
   }
