@@ -318,16 +318,16 @@ header .close-tablabel {
 }
 
 header [type="radio"]:checked ~ label {
-  z-index: 2;
+  z-index: 7;
 }
 
 header [type="radio"]:checked ~ label ~ .detalle {
-  z-index: 1;
+  z-index: 7;
   opacity: 1;
 }
 
 header [type="radio"]:checked ~ label ~ .close-tab {
-  z-index: 3;
+  z-index: 10;
 }
 
 header .menu-link--active {

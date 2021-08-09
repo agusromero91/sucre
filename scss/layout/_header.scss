@@ -7,6 +7,7 @@ header{
     padding-left: 3%;
     color: $col-white;
     align-items: center;
+    
 
     .brand{
         display: flex;
@@ -94,16 +95,16 @@ header{
     }
 
     [type="radio"]:checked ~ label {
-        z-index: 2;        
+        z-index: 7;     // estaba een 1    
     }
     
     [type="radio"]:checked ~ label ~ .detalle {
-        z-index: 1;
+        z-index: 7; //estaba en 1 
         opacity: 1;
     }
     
     [type="radio"]:checked ~ label ~ .close-tab {
-        z-index: 3;
+        z-index: 10; // estaba een 3 
     }
 
     .menu-link--active{
