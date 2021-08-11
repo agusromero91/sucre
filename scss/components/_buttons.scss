@@ -34,3 +34,14 @@
     }
 }
 
+.boton-error{
+    @extend .boton-index;
+    color: $col-pink;
+    background-color: $col-pink-v-light;
+    border: 2px solid $col-pink-v-light;
+    min-width: 100px;
+    margin: 0.5em;
+    padding: 0.5em;
+
+}
+
