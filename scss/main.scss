@@ -1,0 +1,12 @@
+
+/* STYLES */
+@import "./resets", "./variables", "./fonts";
+
+/* LAYOUT */
+@import "./layout/layout";
+
+/* COMPONENTS */
+@import "./components/buttons", "./components/form";
+
+/* PAGES */
+@import "./pages/index", "./pages/menu", "./pages/sobremi", "./pages/galeria", "./pages/contacto", "./pages/error404";

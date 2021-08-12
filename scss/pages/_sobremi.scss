@@ -1,0 +1,41 @@
+.contenedor-perfil{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap: 1em ;
+
+    .foto-perfil{
+        background: url("../multimedia/perfil.jpeg") no-repeat center;
+        width: 350px;
+        height: 440px;
+        margin: 1em;
+    }
+
+    .desc-perfil{
+        flex:2;
+        margin: 2em;
+    }
+}
+
+
+@media only screen and (min-width: 850px){
+   .contenedor-perfil{
+       display: flex;
+       flex-flow: row wrap;
+       justify-content: space-between;
+       align-content: center;
+       padding-left: 5% ;
+       padding-right: 5% ;
+   }
+   .foto-perfil{
+       flex: 1 0 250px;
+       background: url("../multimedia/perfil.jpeg") no-repeat center;
+       height: 550px;
+       width:400px;
+       margin: 2em;
+   }
+   .desc-perfil{
+       flex:2;
+       margin-right: 2em;
+   }
+}

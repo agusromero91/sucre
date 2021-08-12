@@ -1,0 +1,142 @@
+.submenu{
+    &--sm{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color: $col-yellow;
+    font-size: 20px;
+    border-radius: 3em;
+    padding: 0.8em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+   }
+    
+    li{
+        padding: 0.2em;
+    }
+    
+    &-link{
+        color: $col-pink;
+        padding: 0.2em;
+    }
+    :hover{
+        text-decoration: underline 0.2em;        
+    }
+
+    @media only screen and (min-width: 650px){
+        &--md{
+            display: flex;
+            flex-flow: row;
+            justify-content: space-evenly;
+        }
+
+    }
+
+}
+
+
+
+
+.contenedor-submenu{
+    display: flex;
+    flex-flow: column;
+    gap: 3em;
+    justify-items: center;
+    align-content: center;
+    padding: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 1%;
+
+    .contenedor-producto{
+        .producto{
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            gap: 2em;
+        
+            .card{
+                display: flex;
+                flex-flow: column;
+                align-items: center;
+                width: 250px;
+            
+                &-img{
+                    width: 100%;
+                    height: auto;
+                    min-height: 250px;
+                    border-radius: 0.7em;
+                    
+                }
+            
+                &-text{
+                    color: $col-brown;
+                    font-size: 20px;
+                    padding: 0.5em;
+            
+                    p{
+                        text-align: center;
+                    }
+                }
+            }
+        
+        }
+    
+    }
+
+
+}
+
+
+
+
+
+#img1{
+    background: url("../multimedia/menu/budin1.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#img2{
+    background: url("../multimedia/menu/budin2.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#img3{
+    background: url("../multimedia/menu/budin3.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#img4{
+    background: url("../multimedia/menu/cuadrado1.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#img5{
+    background: url("../multimedia/menu/cuadrado2.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#img6{
+    background: url("../multimedia/menu/cuadrado3.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#img7{
+    background: url("../multimedia/menu/torta1.jpg") no-repeat 60% 40% / cover ;
+}
+
+#img8{
+    background: url("../multimedia/menu/torta2.jpg") no-repeat 60% 70% / cover ;
+}
+
+#img9{
+    background: url("../multimedia/menu/torta3.jpg") no-repeat 60% 40% / cover ;
+}
+
+#img10{
+    background: url("../multimedia/menu/salado1.jpeg") no-repeat 60% 40% / cover ;
+}
+
+#img11{
+    background: url("../multimedia/menu/salado2.jpeg") no-repeat 60% 40% / cover ;
+}
+
+#img12{
+    background: url("../multimedia/menu/salado3.jpeg") no-repeat 60% 40% / cover ;
+}

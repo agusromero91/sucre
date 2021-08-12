@@ -1,0 +1,30 @@
+.index-main{
+    background: url("../multimedia/home.jpg") no-repeat center/cover;
+    min-height: 100%;
+    display: grid;
+    place-content: center;
+    position: relative;
+    &::before{
+        position: absolute;
+		top: 0;
+		left: 0;
+	content: "";
+	width: 100%;
+	height: 100%;
+    background: $col-white;
+	opacity: .2;
+    }
+}
+
+.index-txt{
+    text-align: center;
+    padding: 2em;
+    z-index: 5; // si lo saco see arregla el menu mobile pero no funciona el boton
+}
+
+.boton-pedido{
+    margin: 2em;
+    &:hover{
+        transform: scale(1.17);
+    }
+}

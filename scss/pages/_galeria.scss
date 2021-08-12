@@ -1,0 +1,126 @@
+.contenedor-galeria{
+    display: grid;
+    grid-gap:1rem;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    margin: 2.7em;
+
+    .img{
+        display: flex;
+        flex-flow: column;
+        height: 220px;
+        width: 350px;
+        border-radius: 0.5em;
+        width: 100%;
+        background: violet;
+        transition: 300ms ease-in-out;
+        overflow: hidden;
+    
+        &-titulo{
+            height: 20%;
+            width: 100%;
+            background: rgba(4, 4, 4, 0.427);
+            color: white;
+            font-weight: 400;
+            display: grid;
+            place-content: center;  
+            opacity: 0;
+            transition: all 300ms ease-in-out;
+        }
+        
+        &:hover{
+            transform: scale(1.3);
+            cursor: pointer;
+    
+            .img-titulo{
+                opacity: 1;
+            }
+        }
+
+        @media only screen and (max-width: 475px){
+            &-titulo{
+                opacity: 1;
+            }
+
+        }        
+
+    }
+}
+
+#gal1{
+    background: url("../multimedia/galeria/galeria1-alfajores.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#gal2{
+    background: url("../multimedia/galeria/galeria2-lemonpie.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#gal3{
+    background: url("../multimedia/galeria/galeria3-chocolate.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#gal4{
+    background: url("../multimedia/galeria/galeria4-budin-pack.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#gal5{
+    background: url("../multimedia/galeria/galeria5-chocobomba.jpeg") no-repeat 60% 40%/ cover;
+}
+#gal6{
+    background: url("../multimedia/galeria/galeria6-torta-rosca.jpeg") no-repeat 10% 40%/ cover;
+}
+
+#gal7{
+    background: url("../multimedia/galeria/galeria7-sandwiches.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#gal8{
+    background: url("../multimedia/galeria/galeria8-cupcakes.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#gal9{
+    background: url("../multimedia/galeria/galeria9-cupackes-choco.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#gal10{
+    background: url("../multimedia/galeria/galeria10-torta.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#gal11{
+    background: url("../multimedia/galeria/galeria11-torta-frutillas.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#gal12{
+    background: url("../multimedia/galeria/galeria12-chocobomba2.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#gal13{
+    background: url("../multimedia/galeria/galeria13-caja-entrega.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#gal14{
+    background: url("../multimedia/galeria/galeria14-scon.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#gal15{
+    background: url("../multimedia/galeria/galeria15-chocobomba3.jpeg") no-repeat 60% 40%/ cover;
+}
+
+#gal16{
+    background: url("../multimedia/galeria/galeria16-brownies-pack.jpeg") no-repeat 30% 30% / cover;
+}
+
+#gal17{
+    background: url("../multimedia/galeria/galeria17-milhojas.jpeg") no-repeat 30% 30% / cover;
+}
+
+#gal18{
+    background: url("../multimedia/galeria/galeria18-sandwiches-jyq.jpeg") no-repeat 30% 30% / cover;
+}
+
+#gal19{
+    background: url("../multimedia/galeria/galeria19-torota-frutillas2.jpeg") no-repeat 30% 30% / cover;
+}
+
+#gal20{
+    background: url("../multimedia/galeria/galeria20-cuadrados-limon.jpeg") no-repeat 30% 30% / cover;
+}
