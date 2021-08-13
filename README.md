@@ -1,4 +1,4 @@
-# sucre
+# Sucre
 Repositorio para el sitio de Sucre Boutique
 
 Sucre Boutique es un emprendimiento gastronomico, de pasteleria artesanal.
