@@ -5,5 +5,5 @@ Sucre Boutique es un emprendimiento gastronomico, de pasteleria artesanal.
 
 Link del sitio: https://agusromero91.github.io/sucre/
 
-Camada: 18670 - Desarrollo Web
+Camada: 18670 - Desarrollo Web - Coderhouse
 Alumna: Agustina Romero
